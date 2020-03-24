@@ -9,6 +9,10 @@
     <p>Quote for:</p>
 
     <p id="day" onload="theday()"></p>
+   
+    <p id='result'></p>
+
+    <p id='result2'></p>
 
     
 
@@ -29,10 +33,32 @@ weekday[5] ="Friday";
 weekday[6] ="Saturday";
 var n = weekday[d.getDay()];
 
-var quote01 = <img id="moon" src="choosethemoon.jpg"/>; 
-var quote02 = <img id="bob" src="bobmarleyquote01.jpg"/>;
+day.innerHTML = n;
 
-day.innerHTML = n
+theday()
+
+function theday() {
+    day.innerText == 'Monday'
+    result.innerHTML = 'hello';
+
+    day.innerText == 'Tuesday'
+    result.innerHTML = 'hello';
+
+    day.innerText == 'Wednesday'
+    result.innerHTML = 'hello';
+
+    day.innerText == 'Thursday'
+    result.innerHTML = 'hello';
+
+    day.innerText == 'Friday'
+    result.innerHTML = 'hello';
+
+    day.innerText == 'Saturday'
+    result.innerHTML = 'hello';
+
+    day.innerText == 'Sunday'
+    result.innerHTML = 'hello';
+}
 
 
 </script>
